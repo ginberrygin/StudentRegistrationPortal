@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -176,10 +178,11 @@ hr {
 .section-title {
   position: relative;
   display: inline-block;
-  font-family: 'Inter', sans-serif;
-  font-size: 28px;
-  font-weight: 700;
-  color: #16a34a;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: whitesmoke;
   margin-bottom: 18px;
 }
 .section-title:hover {
@@ -203,8 +206,9 @@ hr {
   padding: 12px 24px;
   color: whitesmoke;
   border-radius: 8px;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  text-transform: uppercase;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease,
@@ -226,8 +230,9 @@ hr {
   padding: 12px 24px;
   color: #16a34a;
   border-radius: 8px;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  text-transform: uppercase;
   transition:
     background-color 0.3s ease,
     transform 0.3s ease,
@@ -238,4 +243,31 @@ hr {
   transform: translateY(-2px);
   border-bottom: 3px solid whitesmoke;
   color: whitesmoke;
+}
+
+/* Stylying the course section */
+
+.coursegallery h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+
+.coursegallery p {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: whitesmoke;
+  text-align: center;
+  margin-top: 12px;
+}
+.course-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
 }
