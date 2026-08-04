@@ -196,14 +196,14 @@ hr {
 
 #readmore a {
   display: block;
-  width: 250px;
+  width: 200px;
   text-align: center;
   text-decoration: none;
   background-color: #16a34a;
   padding: 12px 24px;
   color: whitesmoke;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 14px;
   font-weight: 600;
   transition:
     background-color 0.3s ease,
@@ -219,14 +219,14 @@ hr {
 
 #curriculum a {
   display: block;
-  width: 250px;
+  width: 200px;
   text-align: center;
   text-decoration: none;
   background-color: whitesmoke;
   padding: 12px 24px;
   color: #16a34a;
-  border-radius: 6px;
-  font-size: 16px;
+  border-radius: 8px;
+  font-size: 14px;
   font-weight: 600;
   transition:
     background-color 0.3s ease,
