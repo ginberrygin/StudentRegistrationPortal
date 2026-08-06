@@ -263,11 +263,71 @@ hr {
   line-height: 1.5;
   color: whitesmoke;
   text-align: center;
-  margin-top: 12px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
+
+/* Styling the course card */
+
+.course-card {
+  display: inline-block;
+  margin: 10px;
+  width: 250px;
+  background: #fff;
+  border: 1px solid hsl(0, 0%, 85%);
+  border-radius: 8px;
+  overflow: hidden;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-bottom 0.3s ease;
+}
+
+.course-card:hover {
+  border: 2px solid hsl(0, 0%, 20%);
+  border-bottom: 5px solid #16a34a;
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.course-card .description {
+  padding: 10px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  color: whitesmoke;
+}
+
 .course-card img {
   width: 100%;
-  height: 250px;
+  height: 200px;
   object-fit: cover;
-  border-radius: 8px 8px 0 0;
 }
+
+.description h4 {
+  display: none;
+}
+
+.description:hover h4 {
+  display: block;
+  text-align: left;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: #16a34a;
+}
+
+.description a {
+  display: block;
+  background-color: #16a34a;
+  border-radius: 4px;
+  padding: 8px 8px;
+  margin-top: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Styl
+
+ing the course card */
