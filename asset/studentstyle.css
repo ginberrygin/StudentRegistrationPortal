@@ -198,6 +198,7 @@ hr {
 }
 
 #readmore a {
+  margin-bottom: 30px;
   display: block;
   width: 200px;
   text-align: center;
@@ -222,6 +223,7 @@ hr {
 }
 
 #curriculum a {
+  margin-bottom: 30px;
   display: block;
   width: 200px;
   text-align: center;
@@ -246,7 +248,9 @@ hr {
 }
 
 /* Stylying the course section */
-
+.coursegallery {
+  margin-bottom: 30px;
+}
 .coursegallery h3 {
   font-family: 'Raleway', sans-serif;
   font-weight: 100; /* Thin */
@@ -328,6 +332,57 @@ hr {
   text-align: center;
 }
 
-/* Styl
+/* Styling the course card */
 
-ing the course card */
+.reg h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+#registration h3 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100; /* Thin */
+  text-transform: uppercase;
+  color: whitesmoke;
+  margin: 30px;
+  text-align: center;
+  letter-spacing: 10px;
+}
+.personal-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.form-details {
+  flex: 1; /* Takes the remaining space */
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: inline-block;
+  width: 120px;
+}
+
+.passport-frame {
+  border: 2px dashed #999;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#preview {
+  width: 180px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}

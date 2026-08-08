@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Student Registration Portal</title>
     <link rel="icon" type="image/x-icon" href="img/student-registration.jpg" />
-    <link rel="stylesheet" href="studentstyle.css" />
+    <link rel="stylesheet" href="asset/studentstyle.css" />
   </head>
   <body>
     <header id="header">
@@ -31,10 +31,11 @@
                  <li><a href="#coursegallery">backend</a></li>
                 <li><a href="#coursegallery">data analysis</a></li>
                 <li><a href="#coursegallery">ruby on rails</a></li>
+                 <li><a href="#coursegallery">php</a></li>
               </ul>
             </li>
           
-              <li><a href="#contant">contact</a></li>
+              <li><a href="#contact">contact</a></li>
               
             
             </ul>
@@ -47,20 +48,20 @@
 
     <main>
    
-      </section>
+      
   
       <section id="heroabout">
         <div class="container">
    
           <div id="herosection">
             <div class="about-card">    
-          <h3 class="section-title">About Us</h3> <br>
+          <h3 class="section-title">About Us</h3>
           <p> G'news Technologies is a technology training academy dedicated to
         helping students build practical coding skills and launch successful
         careers in software development. Through expert instruction,
         hands-on projects, and industry-focused learning, we prepare aspiring
         developers to become confident, job-ready professionals capable of
-        solving real-world problems with technology.</p><br>
+        solving real-world problems with technology.</p>
     
 
 
@@ -102,10 +103,10 @@
   </div>
 </div>
 
-<br>
-       
+
+       <hr>
         
-    <hr class="">
+   
       </section>
  
 <section id="coursegallery">
@@ -117,7 +118,7 @@
 Whether you're taking your first step into technology or looking to advance your skills, our carefully designed courses provide the knowledge and hands-on experience you need to succeed. Learn from industry-relevant content, work on real-world projects, and build the confidence to excel in today's digital world. Browse our course gallery and choose the path that matches your career goals.
     </p>
    <div class="course-card">
-    <img src="img/html5.jpg" alt="HTML">
+    <img src="asset/img/html5.jpg" alt="HTML">
 
     <div class="description">
 
@@ -128,7 +129,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/css.jpg" alt="HTML">
+    <img src="asset/img/css.jpg" alt="HTML">
 
     <div class="description">
 
@@ -138,7 +139,7 @@ Whether you're taking your first step into technology or looking to advance your
 </div>
 
 <div class="course-card">
-    <img src="img/javascript.jpg" alt="HTML">
+    <img src="asset/img/javascript.jpg" alt="HTML">
 
     <div class="description">
 <h4>JavaScript (JS): A programming language used to make web pages interactive and dynamic by handling user actions, updating content, validating forms, creating animations, and communicating with servers.</h4>
@@ -153,7 +154,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/python.jpg" alt="HTML">
+    <img src="asset/img/python.jpg" alt="HTML">
 
     <div class="description">
  <h4>Python: A high-level, versatile programming language known for its simple syntax and readability. It is widely used for web development, automation, data analysis, artificial intelligence, machine learning, and scripting.</h4>
@@ -166,7 +167,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/backend.jpg" alt="HTML">
+    <img src="asset/img/backend.jpg" alt="HTML">
 
     <div class="description">
   <h4>Backend Development: The part of web development that focuses on the server side of an application. It handles business logic, databases, user authentication, APIs, and communication between the server and the frontend to ensure the application functions correctly.</h4>
@@ -179,7 +180,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/dataanalysis.jpg" alt="HTML">
+    <img src="asset/img/dataanalysis.jpg" alt="HTML">
 
     <div class="description">
  <h4>Data Analysis: The process of collecting, cleaning, organizing, and interpreting data to discover patterns, answer questions, and support informed decision-making. It commonly involves tools such as Excel, SQL, Python, and data visualization software like Power BI or Tableau.</h4>
@@ -192,7 +193,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/ruby.jpg" alt="HTML">
+    <img src="asset/img/ruby.jpg" alt="HTML">
 
     <div class="description">
   <h4>Ruby on Rails (Rails): An open-source web application framework built with the Ruby programming language. It provides developers with a structured way to build web applications quickly by following the principles of Convention over Configuration (CoC) and Don't Repeat Yourself (DRY).</h4>
@@ -205,7 +206,7 @@ Whether you're taking your first step into technology or looking to advance your
 
 
 <div class="course-card">
-    <img src="img/php.jpg" alt="HTML">
+    <img src="asset/img/php.jpg" alt="HTML">
 
     <div class="description">
   <h4>PHP (Hypertext Preprocessor): A widely used server-side scripting language designed for web development. It is used to create dynamic websites and web applications by processing user requests, interacting with databases, managing user authentication, and generating web page content before it is sent to the user's browser.</h4>
@@ -214,17 +215,220 @@ Whether you're taking your first step into technology or looking to advance your
 </div>
 
 
-    </div>
 
     </div>
-   
- 
+       <hr>
   </div>
+  
+
+  
+
+</section>
+
+<section id="registration">
+  <div class="container">
+    <h3>  Register Today. Learn Tomorrow. Lead the Future.</h3>
+
+  <form method="post" action="#" >
+   <fieldset>
+    <legend>PERSONAL INFORMATION</legend>
+
+    <div class="personal-info">
+
+        <!-- Left Side -->
+        <div class="form-details">
+
+            <div class="form-group">
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" minlength="10"
+            maxlength="20">
+            </div>
+
+            <div class="form-group">
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob">
+            </div>
+
+            <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender"> Male
+                <input type="radio" name="gender"> Female
+            </div>
+
+              <div class="form-group">
+                <label>Phone::</label>
+              <input
+            type="tel"
+            id="phone"
+            placeholder="Please enter a valid phone number{08012345678}"
+            pattern="[0-9]{11}">
+                
+            </div>
+
+               <div class="form-group">
+                <label>Email:</label>
+                 <input
+            type="email"
+            id="email"
+            name="emailaddress"
+            placeholder="goodnews@gmail.com"
+            required
+          />
+            </div>
+
+
+              <div class="form-group">
+                <label>Residential Address:</label>
+            <textarea
+            id="msg"
+            name="message"
+            rows="3"
+            cols="25"
+            maxlength="100"
+            placeholder="Enter a message"
+           
+          >
+              </textarea>
+            </div>
+
+            <!-- Add other fields here -->
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- Right Side -->
+        <div class="passport-frame">
+            <img src="" alt="Passport" id="preview">
+ <input
+    type="file"
+    id="passport"
+    name="passport"
+    accept="image/png, image/jpeg, image/jpg"
+    onchange="previewImage(event)"
+  >
+        </div>
+
+    </div>
+</fieldset>
+
+<fieldset>
+    <legend>Course Information</legend>
+
+
+     <div class="course-info">
+
+  <div class="form-details">
+
+            <div class="form-group">
+                <label for="fullname">Select Course:</label>
+  <select id="course" name="course">
+  <option value="" selected disabled>-- Select a Course --</option>
+  <option value="frontend">Frontend Web Development</option>
+  <option value="backend">Backend Web Development</option>
+  <option value="fullstack">Full-Stack Web Development</option>
+  <option value="python">Python Programming</option>
+  <option value="javascript">JavaScript</option>
+  <option value="data-science">Data Science</option>
+  <option value="ai">Artificial Intelligence</option>
+  <option value="cybersecurity">Cybersecurity</option>
+  <option value="mobile">Mobile App Development</option>
+  <option value="software-engineering">Software Engineering</option>
+</select>
+            </div>
+
+ </div>
+
+
+
+ <div class="form-details">
+
+<div class="form-group">
+<label for="fullname">Select Course:</label>
+<select id="course" name="learningmode">
+  <option value="" selected disabled>-- Learning Mode --</option>
+  <option value="Online">Online</option>
+  <option value="Physical">Physical</option>
+  <option value="Hybrid">Hybrid</option>
+  
+</select>
+            </div>
+
+ </div>
+        </div>
+
+
+<div class="form-details">
+
+<div class="form-group">
+<label for="fullname">Experience:</label>
+<select id="course" name="experience">
+  <option value="" selected disabled>-- Previous Programming Experience --</option>
+  <option value="Beginner">Beginner</option>
+  <option value="Intermediate">Intermediate</option>
+  <option value="Advanced">Advanced</option>
+  
+</select>
+</div>
+
+ </div>
+
+
+ <div class="form-details">
+
+<div class="form-group">
+<label for="startdate">Start Date:</label>
+<select id="start-date" name="start-date">
+  <option value="">-- Select Start Date --</option>
+  <option value="2026-09-01">September 1, 2026</option>
+  <option value="2026-10-01">October 1, 2026</option>
+  <option value="2026-11-02">November 2, 2026</option>
+  <option value="2026-12-01">December 1, 2026</option>
+</select>
+</div>
+
+ </div>
+
+
+
+
+
+        </div>
+
+
+
+        
+
+
+        
+    </fieldset>
+
+  </form>
+<!-- End of form -->
+
+  </div>
+  
+ <!-- End of container --> 
 </section>
      
         
      
 
     </main>
+    <script src="studentjs.js"></script>
   </body>
 </html>
